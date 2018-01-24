@@ -1,0 +1,18 @@
+
+RewriteEngine on
+Rewriterule ^login?$ index.php?c=index&a=login
+Rewriterule ^home?$ index.php?c=index&a=index
+Rewriterule ^registro?$ index.php?c=clientes&a=agregarCliente
+Rewriterule ^formularioRegistro?$ index.php?c=index&a=frmRegistro
+Rewriterule ^iniciar?$ index.php?c=login&a=iniciar
+Rewriterule ^errorlg?$ index.php?c=index&a=login&r=error
+Rewriterule ^exitorg?$ index.php?c=index&a=frmRegistro&r=exito
+Rewriterule ^errorrg?$ index.php?c=index&a=frmRegistro&r=error
+Rewriterule ^iniciocl?$ index.php?c=clientes&a=index&m=t
+Rewriterule ^registroAdm?$ index.php?c=admin&a=agregarAdmin
+Rewriterule ^inicioad?$ index.php?c=admin&a=index&m=t
+Rewriterule ^homecl?$ index.php?c=clientes&a=index
+Rewriterule ^homead?$ index.php?c=admin&a=index
+Rewriterule ^salir?$ index.php?c=login&a=cerrarSesion
+Rewriterule ^loginc?$ index.php?c=index&a=login&s=v
+Rewriterule ^errorini?$ index.php?c=index&a=login&rl=error
